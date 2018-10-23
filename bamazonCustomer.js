@@ -1,7 +1,7 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
-// create the connection information for the sql database
+// create the connection information for the sql database, used 3307 because Workbench said 3306 was unavailble.  I ended up with 127.0.0.1:3307
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3307,
