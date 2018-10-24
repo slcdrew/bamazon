@@ -1,6 +1,8 @@
 # bamazon
 Amazon-like store front using MySQL Workbench and npm packages MySQL and Inquirer.
 
+The images folder shows the application in use.
+
 # Before you begin
 Ensure you have installed MySQLWorkbench and have created a database called "bamazon".  Reference the schema.sql document to help in creating and populating the table with demo data. 
 
@@ -16,4 +18,5 @@ A prompt will display asking the user to enter an ID of the product they wish to
 A prompt will display asking for how many unites the user wishes to purchase. 
 
 A message will display showing the product purchased and total amount charged.
+
 
